@@ -31,7 +31,7 @@ def reverse_array(array_of_integers)
   array_of_integers.reverse
 end
 
-#Question6
+#Question 6
 
 def kesha_maker(array)
   new_array = []
@@ -42,16 +42,19 @@ def kesha_maker(array)
   new_array
 end
 
-#Question7
+#Question 7
 
 def find_a(array)
   array.select { |element| element[0] == "a" }
 end
 
-#Question8
+#Question 8
 
 def sum_array(array)
   sum = 0
   array.each {|integer| sum+=integer}
   return sum
 end
+
+#Question 9
+
