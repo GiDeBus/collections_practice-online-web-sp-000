@@ -1,22 +1,22 @@
-#Question1
+#Question 1
 
 def sort_array_asc(array_of_integers)
   array_of_integers.sort
 end
 
-#Question2
+#Question 2
 
 def sort_array_desc(array_of_integers)
   array_of_integers.sort.reverse
 end
 
-#Question3
+#Question 3
 
 def sort_array_char_count(array_of_strings)
   array_of_strings.sort_by {|x| x.length}
 end
 
-#Question4
+#Question 4
 
 def swap_elements(array)
   element2 = array[1]
@@ -25,7 +25,7 @@ def swap_elements(array)
   return array
 end
 
-#Question5
+#Question 5
 
 def reverse_array(array_of_integers)
   array_of_integers.reverse
